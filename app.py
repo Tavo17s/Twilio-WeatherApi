@@ -46,5 +46,5 @@ message = client.messages.create(
     from_=phone_number,
     body='\nHola! \n\n\n El pronostico de lluvia hoy ' +
     df['fecha'][0] + ' en ' + city + ' es : \n\n\n ' + str(forecast_df),
-    to='+573016491031'
+    to='YOUR VERIFIED PHONE NUMBER IN TWILIO'
 )
